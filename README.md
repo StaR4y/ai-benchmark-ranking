@@ -44,7 +44,7 @@ java -jar target/benchmark-ladder-1.0.0.jar chart frontierbench \
 
 ```bash
 java -jar target/benchmark-ladder-1.0.0.jar snapshot \
-  --output-dir . --theme dark --refresh
+  --output-dir . --theme dark --all-themes --refresh
 ```
 
 `snapshot` 生成：
@@ -54,9 +54,11 @@ data/programbench.json
 data/frontierbench.json
 charts/programbench.png
 charts/frontierbench.png
+charts/programbench-{dark,light,neon,mono}.png
+charts/frontierbench-{dark,light,neon,mono}.png
 ```
 
-文件型快照不包含每次抓取时间，因此上游内容没有变化时 Git 不会产生无意义 diff。REST 返回值仍包含 `fetchedAt`。
+无后缀的两张图片使用 `--theme` 指定的主题；`--all-themes` 会基于同一次抓取结果额外生成所有带主题后缀的图片，不会重复请求榜单网站。文件型快照不包含每次抓取时间，因此上游内容没有变化时 Git 不会产生无意义 diff。REST 返回值仍包含 `fetchedAt`。
 
 ## REST API
 
@@ -103,7 +105,7 @@ byte[] png = ladder.renderPng(
 [`.github/workflows/update-leaderboards.yml`](.github/workflows/update-leaderboards.yml) 每天 `01:17 UTC` 自动执行，也可从 Actions 页面手动触发。工作流会：
 
 1. 构建并运行 JAR。
-2. 更新 `data/` 与 `charts/`。
+2. 每个榜单只抓取一次，并更新 `data/` 与四种风格的 `charts/` 图片。
 3. 只在榜单内容变化时，以 `github-actions[bot]` 身份提交并推送。
 
 工作流只使用仓库自带的 `GITHUB_TOKEN`。仓库设置中需要允许 Actions 写入内容：

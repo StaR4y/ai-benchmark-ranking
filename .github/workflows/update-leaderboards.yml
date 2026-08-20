@@ -38,7 +38,7 @@ jobs:
           REQUEST_DELAY_MS: "1500"
         run: >-
           java -jar target/benchmark-ladder-1.0.0.jar
-          snapshot --output-dir . --refresh
+          snapshot --output-dir . --all-themes --refresh
 
       - name: Commit changed artifacts
         shell: bash

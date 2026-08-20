@@ -110,6 +110,10 @@ public final class BenchmarkLadderCommand implements Runnable {
         description = "Chart theme: dark, light, neon or mono (default: ${DEFAULT-VALUE}).")
     private String theme;
 
+    @Option(names = "--all-themes",
+        description = "Also write one named PNG for every supported chart theme.")
+    private boolean allThemes;
+
     @Option(names = "--refresh", defaultValue = "true", negatable = true,
         description = "Refresh upstream pages (default: ${DEFAULT-VALUE}).")
     private boolean refresh;
@@ -123,15 +127,27 @@ public final class BenchmarkLadderCommand implements Runnable {
       Files.createDirectories(dataDir);
       Files.createDirectories(chartDir);
 
+      ChartTheme selectedTheme = ChartTheme.from(theme);
+
       for (BenchmarkSite site : BenchmarkSite.values()) {
         LeaderboardSnapshot snapshot = ladder.fetch(site, refresh);
         StableSnapshot stable = new StableSnapshot(
             snapshot.site().id(), snapshot.title(), snapshot.sourceUrl(), snapshot.entries());
         byte[] json = mapper.writerWithDefaultPrettyPrinter().writeValueAsBytes(stable);
         byte[] png = ladder.renderPng(
-            snapshot, new ChartOptions(top, width, ChartTheme.from(theme)));
+            snapshot, new ChartOptions(top, width, selectedTheme));
         writeAtomically(dataDir.resolve(site.id() + ".json"), json);
         writeAtomically(chartDir.resolve(site.id() + ".png"), png);
+
+        if (allThemes) {
+          for (ChartTheme chartTheme : ChartTheme.values()) {
+            byte[] themedPng = chartTheme == selectedTheme
+                ? png
+                : ladder.renderPng(snapshot, new ChartOptions(top, width, chartTheme));
+            writeAtomically(
+                chartDir.resolve(site.id() + "-" + chartTheme.id() + ".png"), themedPng);
+          }
+        }
         System.out.printf("updated %s (%d entries)%n", site.id(), snapshot.entries().size());
       }
       return 0;
