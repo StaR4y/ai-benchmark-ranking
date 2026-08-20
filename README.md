@@ -1,27 +1,16 @@
 # Benchmark Ladder
 
-一个轻量、可嵌入的 Java 21 项目，用于抓取并保存：
+本项目会每日抓取以下AI Coding Benchmark数据并每日在仓库更新
 
 - [ProgramBench](https://programbench.com/)
 - [FrontierBench](https://www.frontierbench.ai/)（现为 Terminal-Bench 3.0）
 
-项目会统一整理榜单数据，并按高分到低分从上至下生成 PNG 天梯图。内置 `dark`、`light`、`neon`、`mono` 四种风格，同时提供 Java SDK、命令行和 REST API，最终构建为一个可执行 fat JAR。
 
 ![ProgramBench chart](charts/programbench.png)
 
 ![FrontierBench chart](charts/frontierbench.png)
 
-## 技术选择
-
-- **Jsoup**：解析 ProgramBench 的服务端 HTML
-- **Jackson**：读取 FrontierBench 官方前端使用的公开 JSON 接口
-- **Caffeine**：线程安全的短时缓存，避免重复抓取
-- **JFreeChart**：在 headless 环境生成 PNG
-- **Javalin**：轻量 REST 服务
-- **Picocli**：命令行接口
-- **Maven Shade**：生成单文件可执行 JAR
-
-项目不需要 Chromium、Node.js、数据库或 Spring Boot。
+项目可作为服务端直接运行，或作为您的项目依赖提供可供直接调用的api
 
 ## 构建
 
