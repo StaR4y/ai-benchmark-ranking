@@ -1,0 +1,342 @@
+{
+  "site" : "programbench",
+  "title" : "ProgramBench Leaderboard",
+  "sourceUrl" : "https://programbench.com/",
+  "entries" : [ {
+    "rank" : 1,
+    "model" : "Claude Opus 5 (xhigh)",
+    "organization" : "Anthropic",
+    "agent" : "mini-SWE-agent",
+    "score" : 4.5,
+    "secondaryScore" : 37.0,
+    "uncertainty" : null,
+    "releaseDate" : null,
+    "tokens" : null,
+    "cost" : null,
+    "detailsUrl" : "https://programbench.com/run/claude-opus-5-xhigh/",
+    "extras" : {
+      "primaryMetric" : "resolved",
+      "secondaryMetric" : "almostResolved"
+    }
+  }, {
+    "rank" : 2,
+    "model" : "GPT-5.6 Sol (xhigh)",
+    "organization" : "OpenAI",
+    "agent" : "mini-SWE-agent",
+    "score" : 1.0,
+    "secondaryScore" : 15.5,
+    "uncertainty" : null,
+    "releaseDate" : null,
+    "tokens" : null,
+    "cost" : null,
+    "detailsUrl" : "https://programbench.com/run/gpt-5-6-sol-xhigh/",
+    "extras" : {
+      "primaryMetric" : "resolved",
+      "secondaryMetric" : "almostResolved"
+    }
+  }, {
+    "rank" : 3,
+    "model" : "GPT 5.5 (xhigh)",
+    "organization" : "OpenAI",
+    "agent" : "mini-SWE-agent",
+    "score" : 0.5,
+    "secondaryScore" : 13.5,
+    "uncertainty" : null,
+    "releaseDate" : null,
+    "tokens" : null,
+    "cost" : null,
+    "detailsUrl" : "https://programbench.com/run/gpt-5-5-xhigh/",
+    "extras" : {
+      "primaryMetric" : "resolved",
+      "secondaryMetric" : "almostResolved"
+    }
+  }, {
+    "rank" : 4,
+    "model" : "GPT 5.5 (high)",
+    "organization" : "OpenAI",
+    "agent" : "mini-SWE-agent",
+    "score" : 0.5,
+    "secondaryScore" : 5.0,
+    "uncertainty" : null,
+    "releaseDate" : null,
+    "tokens" : null,
+    "cost" : null,
+    "detailsUrl" : "https://programbench.com/run/gpt-5-5-high/",
+    "extras" : {
+      "primaryMetric" : "resolved",
+      "secondaryMetric" : "almostResolved"
+    }
+  }, {
+    "rank" : 5,
+    "model" : "Gemini 3.6 Flash",
+    "organization" : "Google",
+    "agent" : "mini-SWE-agent",
+    "score" : 0.5,
+    "secondaryScore" : 4.0,
+    "uncertainty" : null,
+    "releaseDate" : null,
+    "tokens" : null,
+    "cost" : null,
+    "detailsUrl" : "https://programbench.com/run/gemini-3-6-flash/",
+    "extras" : {
+      "primaryMetric" : "resolved",
+      "secondaryMetric" : "almostResolved"
+    }
+  }, {
+    "rank" : 6,
+    "model" : "GPT-5.6 Sol",
+    "organization" : "OpenAI",
+    "agent" : "mini-SWE-agent",
+    "score" : 0.5,
+    "secondaryScore" : 2.5,
+    "uncertainty" : null,
+    "releaseDate" : null,
+    "tokens" : null,
+    "cost" : null,
+    "detailsUrl" : "https://programbench.com/run/gpt-5-6-sol/",
+    "extras" : {
+      "primaryMetric" : "resolved",
+      "secondaryMetric" : "almostResolved"
+    }
+  }, {
+    "rank" : 7,
+    "model" : "Claude Opus 4.8 (xhigh)",
+    "organization" : "Anthropic",
+    "agent" : "mini-SWE-agent",
+    "score" : 0.0,
+    "secondaryScore" : 16.5,
+    "uncertainty" : null,
+    "releaseDate" : null,
+    "tokens" : null,
+    "cost" : null,
+    "detailsUrl" : "https://programbench.com/run/claude-opus-4-8-xhigh/",
+    "extras" : {
+      "primaryMetric" : "resolved",
+      "secondaryMetric" : "almostResolved"
+    }
+  }, {
+    "rank" : 8,
+    "model" : "GLM-5.2",
+    "organization" : "Z.ai (Zhipu AI)",
+    "agent" : "mini-SWE-agent",
+    "score" : 0.0,
+    "secondaryScore" : 8.5,
+    "uncertainty" : null,
+    "releaseDate" : null,
+    "tokens" : null,
+    "cost" : null,
+    "detailsUrl" : "https://programbench.com/run/glm-5-2/",
+    "extras" : {
+      "primaryMetric" : "resolved",
+      "secondaryMetric" : "almostResolved"
+    }
+  }, {
+    "rank" : 9,
+    "model" : "Gemini 3.7 Flash",
+    "organization" : "Google",
+    "agent" : "mini-SWE-agent",
+    "score" : 0.0,
+    "secondaryScore" : 5.5,
+    "uncertainty" : null,
+    "releaseDate" : null,
+    "tokens" : null,
+    "cost" : null,
+    "detailsUrl" : "https://programbench.com/run/gemini-3-7-flash/",
+    "extras" : {
+      "primaryMetric" : "resolved",
+      "secondaryMetric" : "almostResolved"
+    }
+  }, {
+    "rank" : 10,
+    "model" : "Claude Opus 4.7 (xhigh)",
+    "organization" : "Anthropic",
+    "agent" : "mini-SWE-agent",
+    "score" : 0.0,
+    "secondaryScore" : 4.5,
+    "uncertainty" : null,
+    "releaseDate" : null,
+    "tokens" : null,
+    "cost" : null,
+    "detailsUrl" : "https://programbench.com/run/claude-opus-4-7-xhigh/",
+    "extras" : {
+      "primaryMetric" : "resolved",
+      "secondaryMetric" : "almostResolved"
+    }
+  }, {
+    "rank" : 11,
+    "model" : "Gemini 3.5 Flash",
+    "organization" : "Google",
+    "agent" : "mini-SWE-agent",
+    "score" : 0.0,
+    "secondaryScore" : 3.0,
+    "uncertainty" : null,
+    "releaseDate" : null,
+    "tokens" : null,
+    "cost" : null,
+    "detailsUrl" : "https://programbench.com/run/gemini-3-5-flash/",
+    "extras" : {
+      "primaryMetric" : "resolved",
+      "secondaryMetric" : "almostResolved"
+    }
+  }, {
+    "rank" : 12,
+    "model" : "Claude Opus 4.7",
+    "organization" : "Anthropic",
+    "agent" : "mini-SWE-agent",
+    "score" : 0.0,
+    "secondaryScore" : 3.0,
+    "uncertainty" : null,
+    "releaseDate" : null,
+    "tokens" : null,
+    "cost" : null,
+    "detailsUrl" : "https://programbench.com/run/claude-opus-4-7/",
+    "extras" : {
+      "primaryMetric" : "resolved",
+      "secondaryMetric" : "almostResolved"
+    }
+  }, {
+    "rank" : 13,
+    "model" : "Claude Opus 4.6",
+    "organization" : "Anthropic",
+    "agent" : "mini-SWE-agent",
+    "score" : 0.0,
+    "secondaryScore" : 2.5,
+    "uncertainty" : null,
+    "releaseDate" : null,
+    "tokens" : null,
+    "cost" : null,
+    "detailsUrl" : "https://programbench.com/run/claude-opus-4-6/",
+    "extras" : {
+      "primaryMetric" : "resolved",
+      "secondaryMetric" : "almostResolved"
+    }
+  }, {
+    "rank" : 14,
+    "model" : "GPT 5.5",
+    "organization" : "OpenAI",
+    "agent" : "mini-SWE-agent",
+    "score" : 0.0,
+    "secondaryScore" : 1.5,
+    "uncertainty" : null,
+    "releaseDate" : null,
+    "tokens" : null,
+    "cost" : null,
+    "detailsUrl" : "https://programbench.com/run/gpt-5-5/",
+    "extras" : {
+      "primaryMetric" : "resolved",
+      "secondaryMetric" : "almostResolved"
+    }
+  }, {
+    "rank" : 15,
+    "model" : "Claude Sonnet 4.6",
+    "organization" : "Anthropic",
+    "agent" : "mini-SWE-agent",
+    "score" : 0.0,
+    "secondaryScore" : 1.0,
+    "uncertainty" : null,
+    "releaseDate" : null,
+    "tokens" : null,
+    "cost" : null,
+    "detailsUrl" : "https://programbench.com/run/claude-sonnet-4-6/",
+    "extras" : {
+      "primaryMetric" : "resolved",
+      "secondaryMetric" : "almostResolved"
+    }
+  }, {
+    "rank" : 16,
+    "model" : "GPT 5.4",
+    "organization" : "OpenAI",
+    "agent" : "mini-SWE-agent",
+    "score" : 0.0,
+    "secondaryScore" : 0.0,
+    "uncertainty" : null,
+    "releaseDate" : null,
+    "tokens" : null,
+    "cost" : null,
+    "detailsUrl" : "https://programbench.com/run/gpt-5-4/",
+    "extras" : {
+      "primaryMetric" : "resolved",
+      "secondaryMetric" : "almostResolved"
+    }
+  }, {
+    "rank" : 17,
+    "model" : "Gemini 3.1 Pro",
+    "organization" : "Google",
+    "agent" : "mini-SWE-agent",
+    "score" : 0.0,
+    "secondaryScore" : 0.0,
+    "uncertainty" : null,
+    "releaseDate" : null,
+    "tokens" : null,
+    "cost" : null,
+    "detailsUrl" : "https://programbench.com/run/gemini-3-1-pro/",
+    "extras" : {
+      "primaryMetric" : "resolved",
+      "secondaryMetric" : "almostResolved"
+    }
+  }, {
+    "rank" : 18,
+    "model" : "Gemini 3 Flash",
+    "organization" : "Google",
+    "agent" : "mini-SWE-agent",
+    "score" : 0.0,
+    "secondaryScore" : 0.0,
+    "uncertainty" : null,
+    "releaseDate" : null,
+    "tokens" : null,
+    "cost" : null,
+    "detailsUrl" : "https://programbench.com/run/gemini-3-flash/",
+    "extras" : {
+      "primaryMetric" : "resolved",
+      "secondaryMetric" : "almostResolved"
+    }
+  }, {
+    "rank" : 19,
+    "model" : "Claude Haiku 4.5",
+    "organization" : "Anthropic",
+    "agent" : "mini-SWE-agent",
+    "score" : 0.0,
+    "secondaryScore" : 0.0,
+    "uncertainty" : null,
+    "releaseDate" : null,
+    "tokens" : null,
+    "cost" : null,
+    "detailsUrl" : "https://programbench.com/run/claude-haiku-4-5/",
+    "extras" : {
+      "primaryMetric" : "resolved",
+      "secondaryMetric" : "almostResolved"
+    }
+  }, {
+    "rank" : 20,
+    "model" : "GPT 5.4 mini",
+    "organization" : "OpenAI",
+    "agent" : "mini-SWE-agent",
+    "score" : 0.0,
+    "secondaryScore" : 0.0,
+    "uncertainty" : null,
+    "releaseDate" : null,
+    "tokens" : null,
+    "cost" : null,
+    "detailsUrl" : "https://programbench.com/run/gpt-5-4-mini/",
+    "extras" : {
+      "primaryMetric" : "resolved",
+      "secondaryMetric" : "almostResolved"
+    }
+  }, {
+    "rank" : 21,
+    "model" : "GPT 5 mini",
+    "organization" : "OpenAI",
+    "agent" : "mini-SWE-agent",
+    "score" : 0.0,
+    "secondaryScore" : 0.0,
+    "uncertainty" : null,
+    "releaseDate" : null,
+    "tokens" : null,
+    "cost" : null,
+    "detailsUrl" : "https://programbench.com/run/gpt-5-mini/",
+    "extras" : {
+      "primaryMetric" : "resolved",
+      "secondaryMetric" : "almostResolved"
+    }
+  } ]
+}

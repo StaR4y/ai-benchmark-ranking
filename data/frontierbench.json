@@ -1,0 +1,210 @@
+{
+  "site" : "frontierbench",
+  "title" : "Terminal-Bench 3.0 Leaderboard",
+  "sourceUrl" : "https://www.frontierbench.ai/",
+  "entries" : [ {
+    "rank" : 1,
+    "model" : "Opus 5 (max)",
+    "organization" : "Anthropic",
+    "agent" : "mini-SWE-agent",
+    "score" : 42.7,
+    "secondaryScore" : null,
+    "uncertainty" : 1.58,
+    "releaseDate" : "2026-07-24",
+    "tokens" : "7.3B",
+    "cost" : "$5.8k",
+    "detailsUrl" : "https://www.anthropic.com/news/claude-opus-5",
+    "extras" : {
+      "agentOrganization" : "Princeton",
+      "primaryMetric" : "resolutionRate",
+      "trials" : "370"
+    }
+  }, {
+    "rank" : 2,
+    "model" : "GPT-5.6 Sol (max)",
+    "organization" : "OpenAI",
+    "agent" : "Codex",
+    "score" : 34.59,
+    "secondaryScore" : null,
+    "uncertainty" : 1.58,
+    "releaseDate" : "2026-07-09",
+    "tokens" : "5.8B",
+    "cost" : "$4.0k",
+    "detailsUrl" : "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
+    "extras" : {
+      "agentOrganization" : "OpenAI",
+      "primaryMetric" : "resolutionRate",
+      "trials" : "370"
+    }
+  }, {
+    "rank" : 3,
+    "model" : "Fable 5 (max)",
+    "organization" : "Anthropic",
+    "agent" : "Claude Code",
+    "score" : 34.05,
+    "secondaryScore" : null,
+    "uncertainty" : 1.71,
+    "releaseDate" : "2026-06-09",
+    "tokens" : "3.6B",
+    "cost" : "$6.5k",
+    "detailsUrl" : "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+    "extras" : {
+      "agentOrganization" : "Anthropic",
+      "primaryMetric" : "resolutionRate",
+      "trials" : "370"
+    }
+  }, {
+    "rank" : 4,
+    "model" : "GLM 5.3 (max)",
+    "organization" : "Z.AI",
+    "agent" : "Claude Code",
+    "score" : 32.43,
+    "secondaryScore" : null,
+    "uncertainty" : 1.46,
+    "releaseDate" : "2026-08-14",
+    "tokens" : "5.6B",
+    "cost" : "$1.8k",
+    "detailsUrl" : "https://z.ai/blog/glm-5.3",
+    "extras" : {
+      "agentOrganization" : "Anthropic",
+      "primaryMetric" : "resolutionRate",
+      "trials" : "370"
+    }
+  }, {
+    "rank" : 5,
+    "model" : "Grok 4.6 (high)",
+    "organization" : "xAI",
+    "agent" : "Grok Build",
+    "score" : 26.49,
+    "secondaryScore" : null,
+    "uncertainty" : 1.49,
+    "releaseDate" : "2026-08-12",
+    "tokens" : "2.9B",
+    "cost" : "$2.1k",
+    "detailsUrl" : "https://x.ai/news/grok-4-6",
+    "extras" : {
+      "agentOrganization" : "xAI",
+      "primaryMetric" : "resolutionRate",
+      "trials" : "370"
+    }
+  }, {
+    "rank" : 6,
+    "model" : "Opus 4.8 (max)",
+    "organization" : "Anthropic",
+    "agent" : "Claude Code",
+    "score" : 21.08,
+    "secondaryScore" : null,
+    "uncertainty" : 1.55,
+    "releaseDate" : "2026-05-28",
+    "tokens" : "5.2B",
+    "cost" : "$5.2k",
+    "detailsUrl" : "https://www.anthropic.com/news/claude-opus-4-8",
+    "extras" : {
+      "agentOrganization" : "Anthropic",
+      "primaryMetric" : "resolutionRate",
+      "trials" : "370"
+    }
+  }, {
+    "rank" : 7,
+    "model" : "GPT-5.6 Terra (max)",
+    "organization" : "OpenAI",
+    "agent" : "Codex",
+    "score" : 20.81,
+    "secondaryScore" : null,
+    "uncertainty" : 1.4,
+    "releaseDate" : "2026-07-09",
+    "tokens" : "7.0B",
+    "cost" : "$2.5k",
+    "detailsUrl" : "https://developers.openai.com/api/docs/models/gpt-5.6-terra",
+    "extras" : {
+      "agentOrganization" : "OpenAI",
+      "primaryMetric" : "resolutionRate",
+      "trials" : "370"
+    }
+  }, {
+    "rank" : 8,
+    "model" : "SWE-1.7 Lightning",
+    "organization" : "Cognition",
+    "agent" : "Devin",
+    "score" : 18.65,
+    "secondaryScore" : null,
+    "uncertainty" : 1.52,
+    "releaseDate" : "2026-07-08",
+    "tokens" : "3.6B",
+    "cost" : "$7.2k",
+    "detailsUrl" : "https://cognition.com/blog/swe-1-7",
+    "extras" : {
+      "agentOrganization" : "Cognition",
+      "primaryMetric" : "resolutionRate",
+      "trials" : "370"
+    }
+  }, {
+    "rank" : 9,
+    "model" : "Grok 4.5 (xhigh)",
+    "organization" : "xAI",
+    "agent" : "Cursor CLI",
+    "score" : 15.68,
+    "secondaryScore" : null,
+    "uncertainty" : 1.47,
+    "releaseDate" : "2026-07-08",
+    "tokens" : "1.2B",
+    "cost" : "$766.02",
+    "detailsUrl" : "https://docs.x.ai/developers/models/grok-4.5",
+    "extras" : {
+      "agentOrganization" : "Cursor",
+      "primaryMetric" : "resolutionRate",
+      "trials" : "370"
+    }
+  }, {
+    "rank" : 10,
+    "model" : "Sonnet 5 (max)",
+    "organization" : "Anthropic",
+    "agent" : "Claude Code",
+    "score" : 14.59,
+    "secondaryScore" : null,
+    "uncertainty" : 1.5,
+    "releaseDate" : "2026-06-30",
+    "tokens" : "17.9B",
+    "cost" : "$6.9k",
+    "detailsUrl" : "https://www.anthropic.com/news/claude-sonnet-5",
+    "extras" : {
+      "agentOrganization" : "Anthropic",
+      "primaryMetric" : "resolutionRate",
+      "trials" : "370"
+    }
+  }, {
+    "rank" : 11,
+    "model" : "GPT-5.6 Luna (max)",
+    "organization" : "OpenAI",
+    "agent" : "Codex",
+    "score" : 14.32,
+    "secondaryScore" : null,
+    "uncertainty" : 1.25,
+    "releaseDate" : "2026-07-09",
+    "tokens" : "11.9B",
+    "cost" : "$1.6k",
+    "detailsUrl" : "https://developers.openai.com/api/docs/models/gpt-5.6-luna",
+    "extras" : {
+      "agentOrganization" : "OpenAI",
+      "primaryMetric" : "resolutionRate",
+      "trials" : "370"
+    }
+  }, {
+    "rank" : 12,
+    "model" : "GLM 5.2 (max)",
+    "organization" : "Z.ai",
+    "agent" : "Claude Code",
+    "score" : 4.59,
+    "secondaryScore" : null,
+    "uncertainty" : 0.97,
+    "releaseDate" : "2026-06-13",
+    "tokens" : "3.3B",
+    "cost" : "$3.4k",
+    "detailsUrl" : "https://z.ai/blog/glm-5.2",
+    "extras" : {
+      "agentOrganization" : "Anthropic",
+      "primaryMetric" : "resolutionRate",
+      "trials" : "370"
+    }
+  } ]
+}

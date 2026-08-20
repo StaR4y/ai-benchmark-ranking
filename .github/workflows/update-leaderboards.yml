@@ -1,0 +1,54 @@
+name: Update leaderboards
+
+on:
+  schedule:
+    # 01:17 UTC / 09:17 Asia/Shanghai. Scheduled jobs may start a little late.
+    - cron: "17 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-leaderboards
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+          cache: maven
+
+      - name: Build executable JAR
+        run: ./mvnw --batch-mode --no-transfer-progress package
+
+      - name: Refresh JSON and charts
+        env:
+          CRAWLER_USER_AGENT: >-
+            BenchmarkLadderBot/1.0 (+${{ github.server_url }}/${{ github.repository }})
+          REQUEST_DELAY_MS: "1500"
+        run: >-
+          java -jar target/benchmark-ladder-1.0.0.jar
+          snapshot --output-dir . --refresh
+
+      - name: Commit changed artifacts
+        shell: bash
+        run: |
+          git add data charts
+          if git diff --cached --quiet; then
+            echo "No leaderboard changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(data): update leaderboard snapshots"
+          git push
