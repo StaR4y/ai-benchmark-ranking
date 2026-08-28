@@ -1,5 +1,7 @@
 # Benchmark Ladder
 
+[![Update leaderboards](https://github.com/StaR4y/ai-benchmark-ranking/actions/workflows/update-leaderboards.yml/badge.svg)](https://github.com/StaR4y/ai-benchmark-ranking/actions/workflows/update-leaderboards.yml)
+
 本项目会每日抓取以下AI Coding Benchmark数据并每日在仓库更新
 
 - [ProgramBench](https://programbench.com/)
@@ -106,7 +108,8 @@ byte[] png = ladder.renderPng(
 
 1. 构建并运行 JAR。
 2. 每个榜单只抓取一次，并更新 `data/` 与四种风格的 `charts/` 图片。
-3. 只在榜单内容变化时，以 `github-actions[bot]` 身份提交并推送。
+3. 写入 `data/last-check.json`，记录检查时间、运行链接和榜单条目数。
+4. 以 `github-actions[bot]` 身份提交并推送，因此每天都会留下检查记录；榜单 JSON 和图片只在上游内容变化时改变。
 
 工作流只使用仓库自带的 `GITHUB_TOKEN`。仓库设置中需要允许 Actions 写入内容：
 
