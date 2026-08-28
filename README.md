@@ -108,8 +108,8 @@ byte[] png = ladder.renderPng(
 
 1. 构建并运行 JAR。
 2. 每个榜单只抓取一次，并更新 `data/` 与四种风格的 `charts/` 图片。
-3. 写入 `data/last-check.json`，记录检查时间、运行链接和榜单条目数。
-4. 以 `github-actions[bot]` 身份提交并推送，因此每小时都会留下检查记录；榜单 JSON 和图片只在上游内容变化时改变。
+3. 对比抓取结果与仓库快照；没有变化时只在 Actions 运行摘要中记录，不创建空提交。
+4. 只有榜单 JSON 或图片发生实际变化时，才以 `github-actions[bot]` 身份提交并推送。
 
 工作流只使用仓库自带的 `GITHUB_TOKEN`。仓库设置中需要允许 Actions 写入内容：
 

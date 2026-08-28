@@ -44,33 +44,21 @@ jobs:
           CRAWLER_USER_AGENT: >-
             BenchmarkLadderBot/1.0 (+${{ github.server_url }}/${{ github.repository }})
           REQUEST_DELAY_MS: "1500"
-          WORKFLOW_RUN_URL: >-
-            ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
-          SOURCE_COMMIT: ${{ github.sha }}
         run: |
           java -jar target/benchmark-ladder-1.0.0.jar \
             snapshot --output-dir . --all-themes --refresh
-          jq -n \
-            --arg checkedAt "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" \
-            --arg workflowRun "$WORKFLOW_RUN_URL" \
-            --arg sourceCommit "$SOURCE_COMMIT" \
-            --slurpfile programbench data/programbench.json \
-            --slurpfile frontierbench data/frontierbench.json \
-            '{
-              checkedAt: $checkedAt,
-              workflowRun: $workflowRun,
-              sourceCommit: $sourceCommit,
-              sites: {
-                programbench: {entryCount: ($programbench[0].entries | length)},
-                frontierbench: {entryCount: ($frontierbench[0].entries | length)}
-              }
-            }' > data/last-check.json
 
       - name: Commit changed artifacts
         shell: bash
         run: |
           git add data charts
+          if git diff --cached --quiet; then
+            echo "### No leaderboard changes" >> "$GITHUB_STEP_SUMMARY"
+            echo "Both upstream leaderboards matched the committed snapshots." \
+              >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "chore(data): refresh leaderboard snapshots"
+          git commit -m "chore(data): update leaderboard snapshots"
           git push
