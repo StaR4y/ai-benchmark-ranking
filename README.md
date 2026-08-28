@@ -104,7 +104,7 @@ byte[] png = ladder.renderPng(
 
 ## GitHub Actions Bot
 
-[`.github/workflows/update-leaderboards.yml`](.github/workflows/update-leaderboards.yml) 每天 `01:17 UTC` 自动执行，也可从 Actions 页面手动触发。工作流会：
+[`.github/workflows/update-leaderboards.yml`](.github/workflows/update-leaderboards.yml) 每天 `01:17 UTC` 自动执行；工作流或 Java 源码更新时也会验证执行，还可从 Actions 页面手动触发。工作流会：
 
 1. 构建并运行 JAR。
 2. 每个榜单只抓取一次，并更新 `data/` 与四种风格的 `charts/` 图片。

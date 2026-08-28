@@ -1,6 +1,14 @@
 name: Update leaderboards
 
 on:
+  push:
+    branches: ["main"]
+    paths:
+      - ".github/workflows/update-leaderboards.yml"
+      - ".mvn/**"
+      - "mvnw"
+      - "pom.xml"
+      - "src/**"
   schedule:
     # 01:17 UTC / 09:17 Asia/Shanghai. Scheduled jobs may start a little late.
     - cron: "17 1 * * *"
