@@ -23,7 +23,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <javalin.version>6.7.0</javalin.version>
     <jackson.version>2.19.2</jackson.version>
-    <jsoup.version>1.21.2</jsoup.version>
+    <jsoup.version>1.23.1</jsoup.version>
     <caffeine.version>3.2.2</caffeine.version>
     <picocli.version>4.7.7</picocli.version>
     <jfreechart.version>1.5.5</jfreechart.version>
