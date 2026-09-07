@@ -5,12 +5,12 @@
 本项目会每小时抓取以下 AI Coding Benchmark 数据并在仓库更新
 
 - [ProgramBench](https://programbench.com/)
-- [FrontierBench](https://www.frontierbench.ai/)（现为 Terminal-Bench 3.0）
+- [Terminal-Bench](https://www.tbench.ai/)（自动发现并跟随当前榜单版本）
 
 
 ![ProgramBench chart](charts/programbench.png)
 
-![FrontierBench chart](charts/frontierbench.png)
+![Terminal-Bench chart](charts/frontierbench.png)
 
 项目可作为服务端直接运行，或作为您的项目依赖提供可供直接调用的api
 
@@ -132,10 +132,10 @@ byte[] png = ladder.renderPng(
 - 默认缓存 15 分钟，并限制请求频率。
 - 网络失败、HTTP 429 和 5xx 最多重试三次，并指数退避。
 - 解析不到有效榜单行时明确失败，避免用空结果覆盖仓库数据。
-- ProgramBench 当前未提供 `robots.txt`；FrontierBench 的 `/robots.txt` 当前返回 404。本项目仍采用低频、可识别、只读请求。
+- ProgramBench 当前未提供 `robots.txt`；Terminal-Bench 的 `/robots.txt` 当前返回 404。本项目仍采用低频、可识别、只读请求。
 - 站点结构或公开接口可能变化。对应适配器位于 `crawler/ProgramBenchCrawler` 与 `crawler/FrontierBenchCrawler`。
 
-请遵守目标网站服务条款，不要把默认限频调成高频采集。本项目与 ProgramBench、FrontierBench、Meta、Harbor Framework 无隶属关系。
+请遵守目标网站服务条款，不要把默认限频调成高频采集。本项目与 ProgramBench、Terminal-Bench、Meta、Harbor Framework 无隶属关系。
 
 ## License
 

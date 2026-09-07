@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public enum BenchmarkSite {
   PROGRAMBENCH("programbench", "ProgramBench", "https://programbench.com/"),
-  FRONTIERBENCH("frontierbench", "Terminal-Bench 3.0", "https://www.frontierbench.ai/");
+  FRONTIERBENCH("frontierbench", "Terminal-Bench", "https://www.tbench.ai/");
 
   private final String id;
   private final String displayName;

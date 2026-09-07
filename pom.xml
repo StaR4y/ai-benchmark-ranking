@@ -8,7 +8,7 @@
   <artifactId>benchmark-ladder</artifactId>
   <version>1.0.0</version>
   <name>Benchmark Ladder</name>
-  <description>ProgramBench and FrontierBench leaderboard crawler and chart API</description>
+  <description>ProgramBench and Terminal-Bench leaderboard crawler and chart API</description>
   <url>https://github.com/benchmark-ladder/benchmark-ladder</url>
 
   <licenses>

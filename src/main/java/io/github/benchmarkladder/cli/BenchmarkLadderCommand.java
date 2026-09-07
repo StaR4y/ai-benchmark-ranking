@@ -22,7 +22,7 @@ import picocli.CommandLine.Parameters;
 
 @Command(
     name = "benchmark-ladder",
-    description = "Crawl and visualize ProgramBench and FrontierBench leaderboards.",
+    description = "Crawl and visualize ProgramBench and Terminal-Bench leaderboards.",
     mixinStandardHelpOptions = true,
     version = "benchmark-ladder 1.0.0",
     subcommands = {
