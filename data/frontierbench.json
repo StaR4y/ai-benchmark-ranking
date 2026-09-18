@@ -71,7 +71,41 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 5,
+    "rank" : 2,
+    "model" : "Fable 5.1 (xhigh)",
+    "organization" : "Anthropic",
+    "agent" : "Claude Code",
+    "score" : 57.88,
+    "secondaryScore" : null,
+    "uncertainty" : 3.36,
+    "releaseDate" : "2026-09-01",
+    "tokens" : "2.3B",
+    "cost" : "$4.9k",
+    "detailsUrl" : "https://docs.anthropic.com/en/docs/about-claude/models/all-models",
+    "extras" : {
+      "agentOrganization" : "Anthropic",
+      "primaryMetric" : "resolutionRate",
+      "trials" : "330"
+    }
+  }, {
+    "rank" : 6,
+    "model" : "Fable 5.1 (high)",
+    "organization" : "Anthropic",
+    "agent" : "Claude Code",
+    "score" : 54.55,
+    "secondaryScore" : null,
+    "uncertainty" : 3.44,
+    "releaseDate" : "2026-09-01",
+    "tokens" : "2.2B",
+    "cost" : "$4.0k",
+    "detailsUrl" : "https://docs.anthropic.com/en/docs/about-claude/models/all-models",
+    "extras" : {
+      "agentOrganization" : "Anthropic",
+      "primaryMetric" : "resolutionRate",
+      "trials" : "330"
+    }
+  }, {
+    "rank" : 7,
     "model" : "GPT-6 Astra (medium)",
     "organization" : "OpenAI",
     "agent" : "Codex",
@@ -88,7 +122,41 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 6,
+    "rank" : 8,
+    "model" : "Fable 5.1 (medium)",
+    "organization" : "Anthropic",
+    "agent" : "Claude Code",
+    "score" : 53.94,
+    "secondaryScore" : null,
+    "uncertainty" : 3.39,
+    "releaseDate" : "2026-09-01",
+    "tokens" : "1.6B",
+    "cost" : "$2.8k",
+    "detailsUrl" : "https://docs.anthropic.com/en/docs/about-claude/models/all-models",
+    "extras" : {
+      "agentOrganization" : "Anthropic",
+      "primaryMetric" : "resolutionRate",
+      "trials" : "330"
+    }
+  }, {
+    "rank" : 8,
+    "model" : "Opus 5 (xhigh)",
+    "organization" : "Anthropic",
+    "agent" : "Claude Code",
+    "score" : 53.94,
+    "secondaryScore" : null,
+    "uncertainty" : 3.17,
+    "releaseDate" : "2026-07-24",
+    "tokens" : "6.9B",
+    "cost" : "$6.1k",
+    "detailsUrl" : "https://www.anthropic.com/news/claude-opus-5",
+    "extras" : {
+      "agentOrganization" : "Anthropic",
+      "primaryMetric" : "resolutionRate",
+      "trials" : "330"
+    }
+  }, {
+    "rank" : 10,
     "model" : "Opus 5 (max)",
     "organization" : "Anthropic",
     "agent" : "Claude Code",
@@ -105,7 +173,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 7,
+    "rank" : 11,
     "model" : "GPT-6 Astra (low)",
     "organization" : "OpenAI",
     "agent" : "Codex",
@@ -122,7 +190,41 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 8,
+    "rank" : 12,
+    "model" : "Opus 5 (high)",
+    "organization" : "Anthropic",
+    "agent" : "Claude Code",
+    "score" : 50.3,
+    "secondaryScore" : null,
+    "uncertainty" : 3.73,
+    "releaseDate" : "2026-07-24",
+    "tokens" : "5.5B",
+    "cost" : "$4.7k",
+    "detailsUrl" : "https://www.anthropic.com/news/claude-opus-5",
+    "extras" : {
+      "agentOrganization" : "Anthropic",
+      "primaryMetric" : "resolutionRate",
+      "trials" : "330"
+    }
+  }, {
+    "rank" : 13,
+    "model" : "Opus 5 (medium)",
+    "organization" : "Anthropic",
+    "agent" : "Claude Code",
+    "score" : 44.85,
+    "secondaryScore" : null,
+    "uncertainty" : 3.83,
+    "releaseDate" : "2026-07-24",
+    "tokens" : "3.7B",
+    "cost" : "$3.2k",
+    "detailsUrl" : "https://www.anthropic.com/news/claude-opus-5",
+    "extras" : {
+      "agentOrganization" : "Anthropic",
+      "primaryMetric" : "resolutionRate",
+      "trials" : "330"
+    }
+  }, {
+    "rank" : 14,
     "model" : "Fable 5 (max)",
     "organization" : "Anthropic",
     "agent" : "Claude Code",
@@ -139,7 +241,24 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 9,
+    "rank" : 15,
+    "model" : "Fable 5.1 (low)",
+    "organization" : "Anthropic",
+    "agent" : "Claude Code",
+    "score" : 43.33,
+    "secondaryScore" : null,
+    "uncertainty" : 3.61,
+    "releaseDate" : "2026-09-01",
+    "tokens" : "1.3B",
+    "cost" : "$2.4k",
+    "detailsUrl" : "https://docs.anthropic.com/en/docs/about-claude/models/all-models",
+    "extras" : {
+      "agentOrganization" : "Anthropic",
+      "primaryMetric" : "resolutionRate",
+      "trials" : "330"
+    }
+  }, {
+    "rank" : 16,
     "model" : "GLM-5.3 (max)",
     "organization" : "Z.ai",
     "agent" : "Claude Code",
@@ -156,7 +275,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 10,
+    "rank" : 17,
     "model" : "GPT-5.6 Sol (max)",
     "organization" : "OpenAI",
     "agent" : "Codex",
@@ -173,7 +292,24 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 11,
+    "rank" : 18,
+    "model" : "Opus 5 (low)",
+    "organization" : "Anthropic",
+    "agent" : "Claude Code",
+    "score" : 34.85,
+    "secondaryScore" : null,
+    "uncertainty" : 3.94,
+    "releaseDate" : "2026-07-24",
+    "tokens" : "2.7B",
+    "cost" : "$2.4k",
+    "detailsUrl" : "https://www.anthropic.com/news/claude-opus-5",
+    "extras" : {
+      "agentOrganization" : "Anthropic",
+      "primaryMetric" : "resolutionRate",
+      "trials" : "330"
+    }
+  }, {
+    "rank" : 19,
     "model" : "Opus 4.8 (max)",
     "organization" : "Anthropic",
     "agent" : "Claude Code",
@@ -190,7 +326,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 12,
+    "rank" : 20,
     "model" : "GPT-5.6 Terra (max)",
     "organization" : "OpenAI",
     "agent" : "Codex",
@@ -207,7 +343,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 13,
+    "rank" : 21,
     "model" : "Grok 4.6 (high)",
     "organization" : "xAI",
     "agent" : "Grok Build",
@@ -224,7 +360,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 14,
+    "rank" : 22,
     "model" : "Gemini 3.8 Flash (high)",
     "organization" : "Google",
     "agent" : "mini-SWE-agent",
@@ -241,7 +377,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 15,
+    "rank" : 23,
     "model" : "GPT-5.6 Luna (max)",
     "organization" : "OpenAI",
     "agent" : "Codex",
@@ -258,7 +394,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 16,
+    "rank" : 24,
     "model" : "Grok 4.5 (high)",
     "organization" : "xAI",
     "agent" : "Grok Build",
@@ -275,7 +411,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 16,
+    "rank" : 24,
     "model" : "Sonnet 5 (max)",
     "organization" : "Anthropic",
     "agent" : "Claude Code",
@@ -292,7 +428,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 18,
+    "rank" : 26,
     "model" : "Gemini 3.7 Flash (high)",
     "organization" : "Google",
     "agent" : "mini-SWE-agent",
