@@ -276,6 +276,23 @@
     }
   }, {
     "rank" : 17,
+    "model" : "Grok 4.7 (xhigh)",
+    "organization" : "xAI",
+    "agent" : "Grok Build",
+    "score" : 37.58,
+    "secondaryScore" : null,
+    "uncertainty" : 3.54,
+    "releaseDate" : "2026-09-21",
+    "tokens" : "5.5B",
+    "cost" : "$3.68k (partial: 324/330)",
+    "detailsUrl" : "https://docs.x.ai/developers/models/grok-4.7",
+    "extras" : {
+      "agentOrganization" : "xAI",
+      "primaryMetric" : "resolutionRate",
+      "trials" : "330"
+    }
+  }, {
+    "rank" : 18,
     "model" : "GPT-5.6 Sol (max)",
     "organization" : "OpenAI",
     "agent" : "Codex",
@@ -292,7 +309,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 18,
+    "rank" : 19,
     "model" : "Opus 5 (low)",
     "organization" : "Anthropic",
     "agent" : "Claude Code",
@@ -309,7 +326,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 19,
+    "rank" : 20,
     "model" : "Opus 4.8 (max)",
     "organization" : "Anthropic",
     "agent" : "Claude Code",
@@ -326,7 +343,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 20,
+    "rank" : 21,
     "model" : "GPT-5.6 Terra (max)",
     "organization" : "OpenAI",
     "agent" : "Codex",
@@ -343,7 +360,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 21,
+    "rank" : 22,
     "model" : "Grok 4.6 (high)",
     "organization" : "xAI",
     "agent" : "Grok Build",
@@ -360,7 +377,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 22,
+    "rank" : 23,
     "model" : "Gemini 3.8 Flash (high)",
     "organization" : "Google",
     "agent" : "mini-SWE-agent",
@@ -377,7 +394,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 23,
+    "rank" : 24,
     "model" : "GPT-5.6 Luna (max)",
     "organization" : "OpenAI",
     "agent" : "Codex",
@@ -394,7 +411,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 24,
+    "rank" : 25,
     "model" : "Grok 4.5 (high)",
     "organization" : "xAI",
     "agent" : "Grok Build",
@@ -411,7 +428,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 24,
+    "rank" : 25,
     "model" : "Sonnet 5 (max)",
     "organization" : "Anthropic",
     "agent" : "Claude Code",
@@ -428,7 +445,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 26,
+    "rank" : 27,
     "model" : "Gemini 3.7 Flash (high)",
     "organization" : "Google",
     "agent" : "mini-SWE-agent",
