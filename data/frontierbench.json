@@ -34,7 +34,7 @@
     "extras" : {
       "agentOrganization" : "Anthropic",
       "primaryMetric" : "resolutionRate",
-      "trials" : "0"
+      "trials" : "330"
     }
   }, {
     "rank" : 3,
