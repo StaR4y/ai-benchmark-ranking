@@ -4,6 +4,40 @@
   "sourceUrl" : "https://www.tbench.ai/",
   "entries" : [ {
     "rank" : 1,
+    "model" : "Opus 5.5 (max)",
+    "organization" : "Anthropic",
+    "agent" : "Claude Code",
+    "score" : 64.85,
+    "secondaryScore" : null,
+    "uncertainty" : 3.11,
+    "releaseDate" : "2026-09-22",
+    "tokens" : "8.0B",
+    "cost" : "$4.7k",
+    "detailsUrl" : "https://www.anthropic.com/claude-opus-5-5",
+    "extras" : {
+      "agentOrganization" : "Anthropic",
+      "primaryMetric" : "resolutionRate",
+      "trials" : "330"
+    }
+  }, {
+    "rank" : 2,
+    "model" : "Sonnet 5.5 (max)",
+    "organization" : "Anthropic",
+    "agent" : "Claude Code",
+    "score" : 61.82,
+    "secondaryScore" : null,
+    "uncertainty" : 2.94,
+    "releaseDate" : "2026-09-28",
+    "tokens" : "19.4B",
+    "cost" : "$7.3k",
+    "detailsUrl" : "https://www.anthropic.com/claude-sonnet-5-5",
+    "extras" : {
+      "agentOrganization" : "Anthropic",
+      "primaryMetric" : "resolutionRate",
+      "trials" : "0"
+    }
+  }, {
+    "rank" : 3,
     "model" : "GPT-6 Astra (max)",
     "organization" : "OpenAI",
     "agent" : "Codex",
@@ -20,7 +54,24 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 2,
+    "rank" : 3,
+    "model" : "GPT-6.1 Sol (max)",
+    "organization" : "OpenAI",
+    "agent" : "Codex",
+    "score" : 58.18,
+    "secondaryScore" : null,
+    "uncertainty" : 3.11,
+    "releaseDate" : "2026-09-29",
+    "tokens" : "1.5B",
+    "cost" : "$634.24",
+    "detailsUrl" : "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+    "extras" : {
+      "agentOrganization" : "OpenAI",
+      "primaryMetric" : "resolutionRate",
+      "trials" : "330"
+    }
+  }, {
+    "rank" : 5,
     "model" : "Fable 5.1 (max)",
     "organization" : "Anthropic",
     "agent" : "Claude Code",
@@ -37,7 +88,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 2,
+    "rank" : 5,
     "model" : "GPT-6 Astra (xhigh)",
     "organization" : "OpenAI",
     "agent" : "Codex",
@@ -54,7 +105,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 2,
+    "rank" : 5,
     "model" : "GPT-6 Astra (high)",
     "organization" : "OpenAI",
     "agent" : "Codex",
@@ -71,7 +122,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 2,
+    "rank" : 5,
     "model" : "Fable 5.1 (xhigh)",
     "organization" : "Anthropic",
     "agent" : "Claude Code",
@@ -88,7 +139,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 6,
+    "rank" : 9,
     "model" : "Fable 5.1 (high)",
     "organization" : "Anthropic",
     "agent" : "Claude Code",
@@ -105,7 +156,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 7,
+    "rank" : 10,
     "model" : "GPT-6 Astra (medium)",
     "organization" : "OpenAI",
     "agent" : "Codex",
@@ -122,7 +173,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 8,
+    "rank" : 11,
     "model" : "Fable 5.1 (medium)",
     "organization" : "Anthropic",
     "agent" : "Claude Code",
@@ -139,7 +190,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 8,
+    "rank" : 11,
     "model" : "Opus 5 (xhigh)",
     "organization" : "Anthropic",
     "agent" : "Claude Code",
@@ -156,7 +207,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 10,
+    "rank" : 13,
     "model" : "Opus 5 (max)",
     "organization" : "Anthropic",
     "agent" : "Claude Code",
@@ -173,7 +224,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 11,
+    "rank" : 14,
     "model" : "GPT-6 Astra (low)",
     "organization" : "OpenAI",
     "agent" : "Codex",
@@ -190,7 +241,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 12,
+    "rank" : 15,
     "model" : "Opus 5 (high)",
     "organization" : "Anthropic",
     "agent" : "Claude Code",
@@ -207,7 +258,24 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 13,
+    "rank" : 16,
+    "model" : "GPT-6 Sol (max)",
+    "organization" : "OpenAI",
+    "agent" : "Codex",
+    "score" : 49.39,
+    "secondaryScore" : null,
+    "uncertainty" : 3.23,
+    "releaseDate" : "2026-09-22",
+    "tokens" : "5.0B",
+    "cost" : "$1.5k",
+    "detailsUrl" : "https://developers.openai.com/api/docs/models/gpt-6-sol",
+    "extras" : {
+      "agentOrganization" : "OpenAI",
+      "primaryMetric" : "resolutionRate",
+      "trials" : "330"
+    }
+  }, {
+    "rank" : 17,
     "model" : "Opus 5 (medium)",
     "organization" : "Anthropic",
     "agent" : "Claude Code",
@@ -224,7 +292,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 14,
+    "rank" : 18,
     "model" : "Fable 5 (max)",
     "organization" : "Anthropic",
     "agent" : "Claude Code",
@@ -241,7 +309,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 15,
+    "rank" : 19,
     "model" : "Fable 5.1 (low)",
     "organization" : "Anthropic",
     "agent" : "Claude Code",
@@ -258,7 +326,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 16,
+    "rank" : 20,
     "model" : "GLM-5.3 (max)",
     "organization" : "Z.ai",
     "agent" : "Claude Code",
@@ -275,7 +343,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 17,
+    "rank" : 21,
     "model" : "Grok 4.7 (xhigh)",
     "organization" : "xAI",
     "agent" : "Grok Build",
@@ -292,7 +360,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 18,
+    "rank" : 22,
     "model" : "GPT-5.6 Sol (max)",
     "organization" : "OpenAI",
     "agent" : "Codex",
@@ -309,7 +377,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 19,
+    "rank" : 23,
     "model" : "Opus 5 (low)",
     "organization" : "Anthropic",
     "agent" : "Claude Code",
@@ -326,7 +394,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 20,
+    "rank" : 24,
     "model" : "Opus 4.8 (max)",
     "organization" : "Anthropic",
     "agent" : "Claude Code",
@@ -343,7 +411,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 21,
+    "rank" : 25,
     "model" : "GPT-5.6 Terra (max)",
     "organization" : "OpenAI",
     "agent" : "Codex",
@@ -360,7 +428,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 22,
+    "rank" : 26,
     "model" : "Grok 4.6 (high)",
     "organization" : "xAI",
     "agent" : "Grok Build",
@@ -377,7 +445,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 23,
+    "rank" : 27,
     "model" : "Gemini 3.8 Flash (high)",
     "organization" : "Google",
     "agent" : "mini-SWE-agent",
@@ -394,7 +462,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 24,
+    "rank" : 28,
     "model" : "GPT-5.6 Luna (max)",
     "organization" : "OpenAI",
     "agent" : "Codex",
@@ -411,7 +479,24 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 25,
+    "rank" : 29,
+    "model" : "GPT-6 Luna (max)",
+    "organization" : "OpenAI",
+    "agent" : "Codex",
+    "score" : 16.36,
+    "secondaryScore" : null,
+    "uncertainty" : 2.72,
+    "releaseDate" : "2026-09-22",
+    "tokens" : "3.9B",
+    "cost" : "$72.14",
+    "detailsUrl" : "https://developers.openai.com/api/docs/models/gpt-6-luna",
+    "extras" : {
+      "agentOrganization" : "OpenAI",
+      "primaryMetric" : "resolutionRate",
+      "trials" : "330"
+    }
+  }, {
+    "rank" : 30,
     "model" : "Grok 4.5 (high)",
     "organization" : "xAI",
     "agent" : "Grok Build",
@@ -428,7 +513,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 25,
+    "rank" : 30,
     "model" : "Sonnet 5 (max)",
     "organization" : "Anthropic",
     "agent" : "Claude Code",
@@ -445,7 +530,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 27,
+    "rank" : 32,
     "model" : "Gemini 3.7 Flash (high)",
     "organization" : "Google",
     "agent" : "mini-SWE-agent",
