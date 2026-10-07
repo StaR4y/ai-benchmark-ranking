@@ -378,6 +378,23 @@
     }
   }, {
     "rank" : 23,
+    "model" : "GLM-5.3-Flash (none)",
+    "organization" : "Z.ai",
+    "agent" : "Claude Code",
+    "score" : 35.76,
+    "secondaryScore" : null,
+    "uncertainty" : 3.54,
+    "releaseDate" : "2026-08-26",
+    "tokens" : "2.9B",
+    "cost" : "$2.9k",
+    "detailsUrl" : "https://z.ai/blog/glm-5.3-flash",
+    "extras" : {
+      "agentOrganization" : "Anthropic",
+      "primaryMetric" : "resolutionRate",
+      "trials" : "330"
+    }
+  }, {
+    "rank" : 24,
     "model" : "Opus 5 (low)",
     "organization" : "Anthropic",
     "agent" : "Claude Code",
@@ -394,7 +411,24 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 24,
+    "rank" : 25,
+    "model" : "Qwen3.8-Max-0902 (max)",
+    "organization" : "Alibaba",
+    "agent" : "Claude Code",
+    "score" : 26.97,
+    "secondaryScore" : null,
+    "uncertainty" : 3.78,
+    "releaseDate" : "2026-09-02",
+    "tokens" : "3.0B",
+    "cost" : "$4.6k",
+    "detailsUrl" : "https://www.alibabacloud.com/en/notice/model_studio_update_notice_for_qwen38max_models_863",
+    "extras" : {
+      "agentOrganization" : "Anthropic",
+      "primaryMetric" : "resolutionRate",
+      "trials" : "330"
+    }
+  }, {
+    "rank" : 26,
     "model" : "Opus 4.8 (max)",
     "organization" : "Anthropic",
     "agent" : "Claude Code",
@@ -411,7 +445,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 25,
+    "rank" : 27,
     "model" : "GPT-5.6 Terra (max)",
     "organization" : "OpenAI",
     "agent" : "Codex",
@@ -428,7 +462,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 26,
+    "rank" : 28,
     "model" : "Grok 4.6 (high)",
     "organization" : "xAI",
     "agent" : "Grok Build",
@@ -445,7 +479,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 27,
+    "rank" : 29,
     "model" : "Gemini 3.8 Flash (high)",
     "organization" : "Google",
     "agent" : "mini-SWE-agent",
@@ -462,7 +496,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 28,
+    "rank" : 30,
     "model" : "GPT-5.6 Luna (max)",
     "organization" : "OpenAI",
     "agent" : "Codex",
@@ -479,7 +513,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 29,
+    "rank" : 31,
     "model" : "GPT-6 Luna (max)",
     "organization" : "OpenAI",
     "agent" : "Codex",
@@ -496,7 +530,24 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 30,
+    "rank" : 32,
+    "model" : "Muse Spark 1.3 (xhigh)",
+    "organization" : "Meta",
+    "agent" : "Muse Code",
+    "score" : 14.55,
+    "secondaryScore" : null,
+    "uncertainty" : 2.94,
+    "releaseDate" : "2026-09-02",
+    "tokens" : "9.0B",
+    "cost" : "$0.00",
+    "detailsUrl" : "https://ai.meta.com/tools/muse/",
+    "extras" : {
+      "agentOrganization" : "Meta",
+      "primaryMetric" : "resolutionRate",
+      "trials" : "330"
+    }
+  }, {
+    "rank" : 33,
     "model" : "Grok 4.5 (high)",
     "organization" : "xAI",
     "agent" : "Grok Build",
@@ -513,7 +564,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 30,
+    "rank" : 33,
     "model" : "Sonnet 5 (max)",
     "organization" : "Anthropic",
     "agent" : "Claude Code",
@@ -530,7 +581,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 32,
+    "rank" : 35,
     "model" : "Gemini 3.7 Flash (high)",
     "organization" : "Google",
     "agent" : "mini-SWE-agent",
