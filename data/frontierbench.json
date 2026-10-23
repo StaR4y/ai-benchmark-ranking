@@ -386,7 +386,7 @@
     "uncertainty" : 3.54,
     "releaseDate" : "2026-08-26",
     "tokens" : "2.9B",
-    "cost" : "$2.9k",
+    "cost" : "$118.74",
     "detailsUrl" : "https://z.ai/blog/glm-5.3-flash",
     "extras" : {
       "agentOrganization" : "Anthropic",
