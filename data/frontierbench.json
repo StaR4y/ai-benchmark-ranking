@@ -735,6 +735,23 @@
     }
   }, {
     "rank" : 44,
+    "model" : "Hy4 Preview (max)",
+    "organization" : "Tencent",
+    "agent" : "Claude Code",
+    "score" : 19.09,
+    "secondaryScore" : null,
+    "uncertainty" : 3.09,
+    "releaseDate" : "2026-08-28",
+    "tokens" : "6.0B",
+    "cost" : "$658.09",
+    "detailsUrl" : "https://openrouter.ai/tencent/hy4-preview",
+    "extras" : {
+      "agentOrganization" : "Anthropic",
+      "primaryMetric" : "resolutionRate",
+      "trials" : "330"
+    }
+  }, {
+    "rank" : 45,
     "model" : "Gemini 3.8 Flash (high)",
     "organization" : "Google",
     "agent" : "mini-SWE-agent",
@@ -751,7 +768,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 45,
+    "rank" : 46,
     "model" : "GPT-5.6 Luna (max)",
     "organization" : "OpenAI",
     "agent" : "Codex",
@@ -768,7 +785,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 46,
+    "rank" : 47,
     "model" : "MiMo V2.6 Flash (none)",
     "organization" : "Xiaomi",
     "agent" : "mini-swe-agent",
@@ -785,7 +802,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 47,
+    "rank" : 48,
     "model" : "GPT-6 Luna (max)",
     "organization" : "OpenAI",
     "agent" : "Codex",
@@ -802,7 +819,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 48,
+    "rank" : 49,
     "model" : "Muse Spark 1.3 (xhigh)",
     "organization" : "Meta",
     "agent" : "Muse Code",
@@ -819,7 +836,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 49,
+    "rank" : 50,
     "model" : "Inkling Small 2 (xhigh)",
     "organization" : "Thinking Machines Lab",
     "agent" : "mini-swe-agent",
@@ -836,7 +853,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 50,
+    "rank" : 51,
     "model" : "Gemini 3.7 Flash (high)",
     "organization" : "Google",
     "agent" : "mini-SWE-agent",
@@ -853,7 +870,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 50,
+    "rank" : 51,
     "model" : "Grok 4.5 (high)",
     "organization" : "xAI",
     "agent" : "Grok Build",
@@ -870,7 +887,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 52,
+    "rank" : 53,
     "model" : "Sonnet 5 (max)",
     "organization" : "Anthropic",
     "agent" : "Claude Code",
@@ -887,7 +904,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 53,
+    "rank" : 54,
     "model" : "MiniMax M3 (none)",
     "organization" : "MiniMax",
     "agent" : "mini-swe-agent",
@@ -904,7 +921,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 54,
+    "rank" : 55,
     "model" : "DeepSeek V4 Pro 0813 (max)",
     "organization" : "DeepSeek",
     "agent" : "Claude Code",
@@ -921,7 +938,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 55,
+    "rank" : 56,
     "model" : "Beam 1.0 (none)",
     "organization" : "Reflection",
     "agent" : "mini-swe-agent",
@@ -938,7 +955,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 56,
+    "rank" : 57,
     "model" : "GPT-5.4 Mini (xhigh)",
     "organization" : "OpenAI",
     "agent" : "Codex",
@@ -955,7 +972,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 57,
+    "rank" : 58,
     "model" : "Inkling Small (none)",
     "organization" : "Thinking Machines Lab",
     "agent" : "mini-swe-agent",
@@ -972,7 +989,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 58,
+    "rank" : 59,
     "model" : "Nemotron 3.5 Super VL (none)",
     "organization" : "NVIDIA",
     "agent" : "mini-swe-agent",
@@ -989,7 +1006,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 59,
+    "rank" : 60,
     "model" : "Inkling (none)",
     "organization" : "Thinking Machines Lab",
     "agent" : "mini-swe-agent",
