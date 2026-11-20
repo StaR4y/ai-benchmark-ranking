@@ -973,6 +973,23 @@
     }
   }, {
     "rank" : 58,
+    "model" : "Hy4 Flash (none)",
+    "organization" : "Tencent",
+    "agent" : "mini-swe-agent",
+    "score" : 11.82,
+    "secondaryScore" : null,
+    "uncertainty" : 2.85,
+    "releaseDate" : "2026-11-16",
+    "tokens" : "4.5B",
+    "cost" : "$15.47",
+    "detailsUrl" : "https://openrouter.ai/tencent/hy4-flash",
+    "extras" : {
+      "agentOrganization" : "SWE-agent",
+      "primaryMetric" : "resolutionRate",
+      "trials" : "330"
+    }
+  }, {
+    "rank" : 59,
     "model" : "MiniMax M3 (none)",
     "organization" : "MiniMax",
     "agent" : "mini-swe-agent",
@@ -989,7 +1006,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 59,
+    "rank" : 60,
     "model" : "DeepSeek V4 Pro 0813 (max)",
     "organization" : "DeepSeek",
     "agent" : "Claude Code",
@@ -1006,7 +1023,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 60,
+    "rank" : 61,
     "model" : "Beam 1.0 (none)",
     "organization" : "Reflection",
     "agent" : "mini-swe-agent",
@@ -1023,7 +1040,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 61,
+    "rank" : 62,
     "model" : "Gemini 3.1 Pro (high)",
     "organization" : "Google",
     "agent" : "Antigravity CLI",
@@ -1040,7 +1057,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 62,
+    "rank" : 63,
     "model" : "GPT-5.4 Mini (xhigh)",
     "organization" : "OpenAI",
     "agent" : "Codex",
@@ -1057,7 +1074,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 63,
+    "rank" : 64,
     "model" : "Inkling Small (none)",
     "organization" : "Thinking Machines Lab",
     "agent" : "mini-swe-agent",
@@ -1074,7 +1091,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 64,
+    "rank" : 65,
     "model" : "Nemotron 3.5 Super VL (none)",
     "organization" : "NVIDIA",
     "agent" : "mini-swe-agent",
@@ -1091,7 +1108,7 @@
       "trials" : "330"
     }
   }, {
-    "rank" : 65,
+    "rank" : 66,
     "model" : "Inkling (none)",
     "organization" : "Thinking Machines Lab",
     "agent" : "mini-swe-agent",
